@@ -173,3 +173,13 @@ function onIvCheck(checkbox) {
         + "you are very sure you know what you are doing.");
   }
 }
+
+
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
