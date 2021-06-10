@@ -38,16 +38,6 @@
       }
     }
   </script>
-  <script>
-   function myFunction() {
-     var x = document.getElementById("password");
-     if (x.type === "password") {
-       x.type = "text";
-     } else {
-       x.type = "password";
-     }
-   }
-  </script>
   <script type="text/javascript" src="create.js"></script>
 </head>
 
@@ -84,8 +74,7 @@
     <div class="split-row">
       <div class="labeled-input password">
         <label for="password">password</label>
-        <input type="password" value="1234" id="password" /> <br>
-        <input type="checkbox" onclick="myFunction()">Show Password
+        <input type="password" value="1234" id="password" />
       </div>
       <div class="labeled-input confirm-password">
         <label for="confirm-password">confirm password</label>
